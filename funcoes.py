@@ -1,5 +1,5 @@
-def pegar_valores_calculo(texto):
-    tamanho_texto = len(texto) 
+def pegar_valores_calculo(texto : str):
+    tamanho_texto = len(texto)  
     primeiro_espaco = 0
     numero1 = 0
     operador = ''
@@ -17,7 +17,7 @@ def pegar_valores_calculo(texto):
     return numero1 , operador , numero2
     
     
-def fazer_calculos(numero1,operadores,numero2):
+def fazer_calculos(numero1,operadores,numero2) -> float:
     match operadores:
         case '+':
             resposta = numero1 + numero2
