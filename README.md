@@ -5,5 +5,5 @@ e faz cálculos com eles
 
 Todo list:
 - [ ] Fazer uma GUI
-- [ ] Customizar a resposta baseado se ela é um número decimal ou não
+- [x] ~Customizar a resposta baseado se ela é um número decimal ou não~
  
