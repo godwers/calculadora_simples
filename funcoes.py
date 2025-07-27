@@ -1,3 +1,6 @@
+import tkinter as tk
+
+
 def pegar_valores_calculo(texto : str):
     tamanho_texto = len(texto)  
     primeiro_espaco = 0
